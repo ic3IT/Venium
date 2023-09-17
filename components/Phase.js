@@ -14,12 +14,12 @@ function Phase({ name, description, image }) {
         <p className="font-helvetica-regular">
             {Array.isArray(description) ? (
                 description.map((descPart, index) => (
-                    <>
-                        {descPart.style === 'bold' 
-                            ? <span key={index} style={{ fontWeight: 'bold' }}>{descPart.text}</span> 
-                            : <span key={index}>{descPart.text}</span>}
-                        {index !== description.length - 1 && <br />} 
-                    </>
+                  <React.Fragment key={index}>
+                      {descPart.style === 'bold' 
+                          ? <span style={{ fontWeight: 'bold' }}>{descPart.text}</span> 
+                          : <span>{descPart.text}</span>}
+                      {index !== description.length - 1 && <br />} 
+                  </React.Fragment>
                 ))
             ) : (
                 description
