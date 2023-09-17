@@ -1,0 +1,27 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fira+Sans:wght@500;700&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Helvetica Now Display Regular";
+    src: url("/assets/fonts/helvetica-now/HelveticaNowDisplay-Regular.woff2")
+}
+
+@font-face {
+    font-family: "Helvetica Now Display Title";
+    src: url("/assets/fonts/helvetica-now/HelveticaNowDisplay-ExtBlk.woff2")
+}
+
+body, h1, h2, h3, p, button {
+    font-family: 'TT', Arial, sans-serif;
+  }
+
+@font-face {
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Akira Expanded'), url('https://fonts.cdnfonts.com/s/37506/Akira Expanded Demo.woff') format('woff');
+}
