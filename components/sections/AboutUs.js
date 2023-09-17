@@ -1,38 +1,65 @@
-import Image from "next/image"
+import Image from "next/image";
 import dino3 from "../../public/assets/images/roadmap_dino_3.png";
 
 function AboutUs() {
   return (
     <section className="bg-main-black">
-    <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 mx-auto py-40 sm:px-16">
-      <div className="text-slate-50 mb-12 md:mb-0 order-1 text-center md:text-left p-7 md:p-0">
-        <h1 className="font-helvetica-title text-3xl mb-8  md:text-left">ABOUT US</h1>
-        <p className="text-xl font-helvetica-regular leading-7">
-          Dripping Dinos is reimagining and upping the standard in the
-          next generation of Ethereum NFTs. Bringing never seen before
-          utilities and culture brands to the NFT space. Focusing on
-          becoming an emerging lifestyle brand, based on streetwear
-          culture. The project will create and sustain a loyal and driven
-          movement by combining the plans of building a strong community
-          and delivering value back to the holders. The collection will
-          consist of 8000 handcrafted artworks created with exceptional
-          visual traits. Our aim is to inspire a culture that connects
-          people in the digital world, as well as the real world.
-        </p>
-      </div>
-      <div className="flex items-center justify-center order-2">
-        <div className="w-[300px] md:w-[400px]">
-          <Image
-            src={dino3}
-            objectFit="cover"
-            className="rounded-2xl"
-            alt=""
-          />
+      <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 mx-auto py-40 sm:px-16">
+        <div className="text-slate-50 mb-12 md:mb-0 order-1 text-center md:text-left p-7 md:p-0">
+          <h1 className="font-helvetica-title text-3xl mb-8  md:text-left">
+            ABOUT US
+          </h1>
+          <p className="text-xl font-helvetica-regular leading-7">
+            Welcome to Scrollium, the trailblazing gaming platform on the Scroll
+            Network. We stand at the forefront of innovation, merging the power
+            of cryptocurrency with the boundless potential of the gaming
+            universe. Our vision is to propel the Scroll ecosystem into the
+            future, and we're doing this one game at a time.
+          </p>
+          <h1 className="font-helvetica-title text-3xl mt-5 md:text-left">
+            Why Scrollium?
+          </h1>
+          <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
+          1. All-Inclusive Gaming Experience:
+          </p>
+          <p className="text-xl font-helvetica-regular mt-1 leading-7">
+          We are curating a diverse library of games, ensuring there's something for every kind of gamer. Whether you're a casual player looking for a quick game or a seasoned pro seeking the next big challenge, Scrollium is your ultimate gaming destination.
+          </p>
+
+          <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
+          2. Interactive & Rewarding
+          </p>
+          <p className="text-xl font-helvetica-regular mt-1 leading-7">
+          At Scrollium, every interaction is not just immersive but also rewarding. Our dApps don’t just offer fun; they offer tangible returns, blending entertainment with real-world value.
+          </p>
+          <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
+          3. Designed for Scroll Adopters:
+          </p>
+          <p className="text-xl font-helvetica-regular mt-1 leading-7">
+          We recognize the potential of the Scroll Network and are dedicated to enriching its ecosystem. Our platform is tailored for Scroll adopters, ensuring seamless compatibility, optimized performance, and an easy unmatched user experience.
+          </p>
+          <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
+          4. Forever Evolutionary:
+          </p>
+          <p className="text-xl font-helvetica-regular mt-1 leading-7">
+          In a rapidly advancing digital age, we don't just adapt; we revolutionize. Scrollium is a living entity, continuously evolving, improving, and expanding. We're not here to follow trends but to set them.
+          </p>
+
+
+        </div>
+        <div className="flex items-center justify-center order-2">
+          <div className="w-[300px] md:w-[400px]">
+            <Image
+              src={dino3}
+              objectFit="cover"
+              className="rounded-2xl"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  )
+    </section>
+  );
 }
 
-export default AboutUs
+export default AboutUs;

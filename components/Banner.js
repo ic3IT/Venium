@@ -8,6 +8,10 @@ function Banner() {
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-[url(/assets/images/Dripping-Background.png)] bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       <div className="relative items-center flex flex-col bg-fixed justify-center bg-black bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen">
+        <div>
+          <h4 className="text-white text-lg flex-1">Scrollium</h4>
+
+        </div>
         {/* <h1 className="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white">Dripping Dinos</h1> */}
         {/* <div className="flex"> */}
           <div className="relative w-[600px] h-[400px]">

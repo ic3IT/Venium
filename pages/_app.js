@@ -1,5 +1,7 @@
+'use client'
 import Head from "next/head";
 import "../styles/globals.css";
+import AnimatedCursor from "react-animated-cursor"
 
 function MyApp({ Component, pageProps }) {
   return (
