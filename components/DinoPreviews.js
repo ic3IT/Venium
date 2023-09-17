@@ -1,6 +1,7 @@
 import Image from "next/image";
 import placeholderImg from "../public/assets/images/PLACEHOLDER.png";
 
+
 function DinoPreviews() {
   return (
     <section className="grid grid-rows-2">

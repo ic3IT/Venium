@@ -16,12 +16,12 @@ function Banner() {
         {/* <div className="flex"> */}
         <div class="grid grid-cols-4 mt-32">
     <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer">
-        <button class="text-white">
+        <button class="text-white bounce-in">
             Raffle
         </button>
     </a>
     
-    <button class="text-white pl-32"> 
+    <button class="text-white pl-32 bounce-in"> 
         Pass
     </button>
 </div>
