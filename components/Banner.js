@@ -18,9 +18,11 @@ function Banner() {
     </a>
 </div>
 <div className="">
-    <button class="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white"> 
+        <a href="https://discord.com/invite/5qGxb8Sa" target="_blank" rel="noopener noreferrer">
+    <button class="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white bounce-in"> 
         Pass
     </button>
+    </a>
     </div>
 
           <div className="relative w-[600px] h-[400px]">
