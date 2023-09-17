@@ -29,7 +29,7 @@ function Header({showBackground}) {
 
         {/* right icons */}
         <div className="hidden md:flex justify-end items-center">
-          <Link href="https://twitter.com/DrippingDinos/">
+          <Link href="">
             <div className="mx-2">
               <Image
                 src={twitterImg}

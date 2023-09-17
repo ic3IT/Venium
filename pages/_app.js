@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Scrollium</title>
-        <meta name="description" content="Dripping Dinos" />
+        <meta name="description" content="Scrollium" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
 
