@@ -22,7 +22,7 @@ function AboutUs() {
           1. All-Inclusive Experience:
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          We are curating a diverse library tailored to the ever-evolving crypto landscape. Whether you're a newcomer exploring the basics or a seasoned expert delving into advanced topics, Scrollium offers a wealth of resources for every enthusiast.
+          We are curating a diverse library tailored to the ever-evolving crypto landscape. Whether you&apos;re a newcomer exploring the basics or a seasoned expert delving into advanced topics, Scrollium offers a wealth of resources for every enthusiast.
           </p>
 
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
