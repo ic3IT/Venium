@@ -8,23 +8,20 @@ function Banner() {
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-[url(/assets/images/Dripping-Background.png)] bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       <div className="relative items-center flex flex-col bg-fixed justify-center bg-black bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen">
-        <div>
-          <h4 className="text-white text-lg flex-1">Scrollium</h4>
-
-        </div>
-        {/* <h1 className="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white">Dripping Dinos</h1> */}
+        <h1 className="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white">Scrollium</h1>
         {/* <div className="flex"> */}
-        <div class="grid grid-cols-4 mt-32">
+        <div class="grid grid-cols-4 mt-32 items-center justify-center">
     <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer">
-        <button class="text-white bounce-in">
+        <button class="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white bounce-in">
             Raffle
         </button>
     </a>
-    
-    <button class="text-white pl-32 bounce-in"> 
+</div>
+<div className="">
+    <button class="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white"> 
         Pass
     </button>
-</div>
+    </div>
 
           <div className="relative w-[600px] h-[400px]">
             

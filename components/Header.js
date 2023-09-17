@@ -49,7 +49,7 @@ function Header({showBackground}) {
               />
             </div>
           </Link>
-          <Link href="https://twitter.com/DrippingDinos/">
+          <Link href="https://discord.gg/5qGxb8Sa">
             <div className="mx-2">
               <Image
                 src={discordImg}
@@ -59,9 +59,12 @@ function Header({showBackground}) {
               />
             </div>
           </Link>
-          <button className="font-helvetica-title text-sm text-slate-50 ml-3 rounded-md border-2 bg-main-black py-2 px-5 hover:bg-slate-50 hover:border-slate-50 hover:text-zinc-900 transition duration-150 active:scale-90">
-            WHITEPAPER
-          </button>
+          <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer">
+    <button className="font-helvetica-title text-sm text-slate-50 ml-3 rounded-md border-2 bg-main-black py-2 px-5 hover:bg-slate-50 hover:border-slate-50 hover:text-zinc-900 transition duration-150 active:scale-90">
+        RAFFLE
+    </button>
+</a>
+
         </div>
       </div>
     </header>

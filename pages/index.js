@@ -45,7 +45,7 @@ export default function Home() {
   const teamData = [
     {
       id: 0,
-      name: "Yip Zhang",
+      name: "ic3it",
       image: scrolliumlogo,
       role: "Founder",
     },
@@ -53,7 +53,7 @@ export default function Home() {
       id: 3,
       name: "Dusty",
       image: scrolliumlogo,
-      role: "Web Developer",
+      role: "AI/Web Developer",
     },
     {
       id: 4,
