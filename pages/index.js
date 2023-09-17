@@ -12,6 +12,7 @@ import AboutUs from "../components/sections/AboutUs";
 import DGK from "../components/sections/DGK";
 import Roadmap from "../components/Roadmap";
 import DinoPreviews from "../components/DinoPreviews";
+import scrolliumlogo from '../public/assets/images/scrolliumlogo.png'
 
 export default function Home() {
   const roadmapRef = useRef();
@@ -44,33 +45,22 @@ export default function Home() {
   const teamData = [
     {
       id: 0,
-      name: "Reza",
-      image: dino5,
-      role: "Co-Founder",
-    },
-    {
-      id: 1,
-      name: "Jeffrey",
-      image: dino2,
-      role: "Co-Founder",
-    },
-    {
-      id: 2,
-      name: "Stevie Williams",
-      image: dino2,
-      role: "DGK Founder",
+      name: "Yip Zhang",
+      image: scrolliumlogo,
+      role: "Founder",
     },
     {
       id: 3,
       name: "Dusty",
-      image: dino5,
+      image: scrolliumlogo,
       role: "Web Developer",
     },
     {
       id: 4,
-      name: "Eduardo",
-      image: dino5,
-      role: "3D Designer",
+      name: "TBA",
+      className: "items-center",
+      image: scrolliumlogo,
+      role: "",
     },
   ];
 
@@ -101,7 +91,7 @@ export default function Home() {
           <div className="flex flex-col py-40 px-20">
             <div className="text-slate-50 order-1 text-center">
               <h1 className="font-helvetica-title text-3xl mb-8 ">
-                DRIPPING TEAM
+                SCROLLIUM TEAM
               </h1>
             </div>
             <div className="flex flex-wrap flex-col items-center sm:items-start sm:flex-row justify-center order-2">

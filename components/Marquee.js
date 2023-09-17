@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 function Marquee() {
   return (
     <div className="relative bg-gray-500 flex overflow-x-hidden">

@@ -39,7 +39,7 @@ function Header({showBackground}) {
               />
             </div>
           </Link>
-          <Link href="https://www.instagram.com/drippingdinosnft/">
+          <Link href="">
             <div className="mx-2">
               <Image
                 src={instagramImg}

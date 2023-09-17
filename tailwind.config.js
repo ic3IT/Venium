@@ -18,8 +18,8 @@ module.exports = {
       },
       animation: {
         "slide-text": "slide-up 3s",
-        "slide-right": "slide-right 1.2s forwards",
-        "slide-left": "slide-left 1.2s forwards",
+        "slide-right": "slide-right 0.7s forwards",
+        "slide-left": "slide-left 0.7s forwards",
         marquee: "marquee 25s linear infinite",
         marquee2: "marquee2 25s linear infinite",
         "marquee-right": "marquee-right 25s linear infinite",

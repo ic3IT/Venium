@@ -10,11 +10,10 @@ function AboutUs() {
             ABOUT US
           </h1>
           <p className="text-xl font-helvetica-regular leading-7">
-            Welcome to Scrollium, the trailblazing gaming platform on the Scroll
+            Welcome to Scrollium, the trailblazing ecosystem on the Scroll
             Network. We stand at the forefront of innovation, merging the power
-            of cryptocurrency with the boundless potential of the gaming
-            universe. Our vision is to propel the Scroll ecosystem into the
-            future, and we're doing this one game at a time.
+            of cryptocurrency with the boundless potential of entertainment. Our vision is to propel the Scroll ecosystem into the
+            future, and we&apos;re doing this one game at a time.
           </p>
           <h1 className="font-helvetica-title text-3xl mt-5 md:text-left">
             Why Scrollium?
@@ -23,26 +22,26 @@ function AboutUs() {
           1. All-Inclusive Gaming Experience:
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          We are curating a diverse library of games, ensuring there's something for every kind of gamer. Whether you're a casual player looking for a quick game or a seasoned pro seeking the next big challenge, Scrollium is your ultimate gaming destination.
+          We are curating a diverse library of games, ensuring there&apos;s something for every kind of gamer. Whether you&apos;re a casual player looking for a quick game or a seasoned pro seeking the next big challenge, Scrollium is your ultimate gaming destination.
           </p>
 
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
           2. Interactive & Rewarding
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          At Scrollium, every interaction is not just immersive but also rewarding. Our dApps don’t just offer fun; they offer tangible returns, blending entertainment with real-world value.
+          At Scrollium, every interaction is not just immersive but also rewarding. Our dApps don&apos;t just offer fun; they offer tangible returns, blending entertainment with real-world value.
           </p>
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
           3. Designed for Scroll Adopters:
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          We recognize the potential of the Scroll Network and are dedicated to enriching its ecosystem. Our platform is tailored for Scroll adopters, ensuring seamless compatibility, optimized performance, and an easy unmatched user experience.
+          We recognize the potential of the Scroll Network and are dedicated to enriching its ecosystem. Our platform is tailored for Beginner Scroll adopters, ensuring seamless compatibility, optimized performance, and an easy unmatched user experience.
           </p>
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
           4. Forever Evolutionary:
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          In a rapidly advancing digital age, we don't just adapt; we revolutionize. Scrollium is a living entity, continuously evolving, improving, and expanding. We're not here to follow trends but to set them.
+          In a rapidly advancing digital age, we don&apos;t just adapt; we revolutionize. Scrollium is a living entity, continuously evolving, improving, and expanding. We&apos;re not here to follow trends but to set them.
           </p>
 
 
