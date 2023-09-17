@@ -29,7 +29,7 @@ function Header({showBackground}) {
 
         {/* right icons */}
         <div className="hidden md:flex justify-end items-center">
-          <Link href="">
+          <Link href="" rel="noopener noreferrer">
             <div className="mx-2">
               <Image
                 src={twitterImg}
@@ -39,7 +39,7 @@ function Header({showBackground}) {
               />
             </div>
           </Link>
-          <Link href="">
+          {/* <Link href="">
             <div className="mx-2">
               <Image
                 src={instagramImg}
@@ -47,9 +47,9 @@ function Header({showBackground}) {
                 className="cursor-pointer"
                 alt=""
               />
-            </div>
-          </Link>
-          <Link href="https://discord.gg/5qGxb8Sa">
+            </div> 
+            </Link> */}
+          <Link href="https://discord.gg/5qGxb8Sa" target='_blank' rel="noopener noreferrer">
             <div className="mx-2">
               <Image
                 src={discordImg}

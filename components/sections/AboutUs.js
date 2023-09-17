@@ -3,14 +3,14 @@ import dino3 from "../../public/assets/images/roadmap_dino_3.png";
 
 function AboutUs() {
   return (
-    <section className="bg-main-black">
+    <section className="bg-main-black md:flex">
       <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 mx-auto py-40 sm:px-16">
         <div className="text-slate-50 mb-12 md:mb-0 order-1 text-center md:text-left p-7 md:p-0">
           <h1 className="font-helvetica-title text-3xl mb-8  md:text-left">
             ABOUT US
           </h1>
           <p className="text-xl font-helvetica-regular leading-7">
-            Welcome to Scrollium, the trailblazing ecosystem on the Scroll
+            Welcome to Scrollium, the pioneering ecosystem on the Scroll
             Network. We stand at the forefront of innovation, merging the power
             of cryptocurrency with the boundless potential of entertainment. Our vision is to propel the Scroll ecosystem into the
             future, and we&apos;re doing this one game at a time.
@@ -19,10 +19,10 @@ function AboutUs() {
             Why Scrollium?
           </h1>
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
-          1. All-Inclusive Gaming Experience:
+          1. All-Inclusive Experience:
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          We are curating a diverse library of games, ensuring there&apos;s something for every kind of gamer. Whether you&apos;re a casual player looking for a quick game or a seasoned pro seeking the next big challenge, Scrollium is your ultimate gaming destination.
+          We are curating a diverse library tailored to the ever-evolving crypto landscape. Whether you're a newcomer exploring the basics or a seasoned expert delving into advanced topics, Scrollium offers a wealth of resources for every enthusiast.
           </p>
 
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
