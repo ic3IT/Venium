@@ -8,7 +8,7 @@ function Banner() {
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-[url(/assets/images/Dripping-Background.png)] bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       <div className="relative items-center flex flex-col bg-fixed justify-center bg-black bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen">
-        <h1 className="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white">Scrollium</h1>
+        <h1 className="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white bounce-in">Scrollium</h1>
         {/* <div className="flex"> */}
         <div class="grid grid-cols-4 mt-32 items-center justify-center">
     <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer">
