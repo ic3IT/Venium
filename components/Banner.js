@@ -31,15 +31,15 @@ function Banner() {
 
 </div>
 
-
-
 <br className="sm:block sm:visible" />
-<br className="sm:block sm:visible" />
+<br className="hidden sm:block" />
+<br className="hidden sm:block" />
 
 
-<div className="">
+
+<div >
         <a href="https://discord.com/invite/5qGxb8Sa" target="_blank" rel="noopener noreferrer">
-    <button class="flex font-akira text-2xl sm:text-5xl md:text-6xl lg:text-6xl text-white bounce-in mt-8 sm:mt-0"> 
+    <button class="flex-1 font-akira text-2xl sm:text-5xl md:text-6xl lg:text-6xl text-white bounce-in mt-8 sm:mt-0"> 
         Pass 
     </button>
     </a>
