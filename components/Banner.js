@@ -11,25 +11,26 @@ function Banner() {
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-[url(/assets/images/Dripping-Background.png)] bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       <div className="relative items-center flex flex-col bg-fixed justify-center bg-black bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen">
-  <h1 className="font-akira text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-white bounce-in mt-16 sm:mt-32 md:mt-48 lg:mt-64">Scrollium</h1>
+      <h1 className="font-akira text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-white bounce-in mt-16 sm:mt-32 md:mt-48 lg:mt-64">Scrollium</h1>
 
-<div className="grid grid-cols-4 gap-4 sm:gap-8 mt-16 sm:mt-32 items-center justify-center w-full">
+<div className="grid grid-cols-4 gap-6 sm:gap-8 mt-16 sm:mt-32 items-center justify-center w-full">
 
     {/* Spacer div */}
     <div></div>
 
     <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer" className="col-start-2">
-      <button className="font-akira text-2xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8">Raffle</button>
+      <button className="font-akira text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8">Raffle</button>
     </a>
 
     <a href="https://prophex.vercel.app" target="_blank" rel="noopener noreferrer" className="col-start-3">
-      <button className="font-akira text-2xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8">Prophex</button>
+      <button className="font-akira text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8">Prophex</button>
     </a>
 
     {/* Spacer div */}
     <div></div>
 
 </div>
+
 
 
 <br className="sm:block sm:visible" />
