@@ -11,23 +11,38 @@ function Banner() {
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       {/* <div className="relative items-center flex flex-col bg-fixed justify-center bg-[url(/assets/images/Dripping-Background.png)] bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen"> */}
       <div className="relative items-center flex flex-col bg-fixed justify-center bg-black bg-no-repeat bg-auto sm:bg-cover bg-center w-screen h-screen">
-      <h1 className="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white bounce-in sm:mt-64">Scrollium</h1>
+  <h1 className="font-akira text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-white bounce-in mt-16 sm:mt-32 md:mt-48 lg:mt-64">Scrollium</h1>
 
-        {/* <div className="flex"> */}
-        <div class="grid grid-cols-4 mt-32 items-center justify-center">
-    <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer">
-    <button class="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white bounce-in pl-5 md:pl-5 -mt-8 sm:mt-0">Raffle</button>
+<div className="grid grid-cols-4 gap-4 sm:gap-8 mt-16 sm:mt-32 items-center justify-center w-full">
 
+    {/* Spacer div */}
+    <div></div>
 
+    <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer" className="col-start-2">
+      <button className="font-akira text-2xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8">Raffle</button>
     </a>
+
+    <a href="https://prophex.vercel.app" target="_blank" rel="noopener noreferrer" className="col-start-3">
+      <button className="font-akira text-2xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8">Prophex</button>
+    </a>
+
+    {/* Spacer div */}
+    <div></div>
+
 </div>
+Changes made:
+
+I've introduced additional breakpoints (sm:, md:, lg:, xl:) to incrementally adjust
+
+
+
 <br className="sm:block sm:visible" />
 <br className="sm:block sm:visible" />
 
 
 <div className="">
         <a href="https://discord.com/invite/5qGxb8Sa" target="_blank" rel="noopener noreferrer">
-    <button class="flex font-akira text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white bounce-in mt-8 sm:mt-0"> 
+    <button class="flex font-akira text-2xl sm:text-5xl md:text-6xl lg:text-6xl text-white bounce-in mt-8 sm:mt-0"> 
         Pass 
     </button>
     </a>

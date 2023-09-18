@@ -1,5 +1,7 @@
 import Image from "next/image";
 import dino3 from "../../public/assets/images/roadmap_dino_3.png";
+import logo from "../../public/assets/images/scrolliumlogo.png";
+
 
 function AboutUs() {
   return (
@@ -49,7 +51,7 @@ function AboutUs() {
         <div className="flex items-center justify-center order-2">
           <div className="w-[300px] md:w-[400px]">
             <Image
-              src={dino3}
+              src={logo}
               objectFit="cover"
               className="rounded-2xl"
               alt=""
