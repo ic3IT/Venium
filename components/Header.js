@@ -6,31 +6,19 @@ import instagramImg from "../public/assets/images/instagram.svg";
 import Image from "next/image";
 import Link from "next/link";
 
-function Header({showBackground}) {
+function Header({ showBackground }) {
   return (
     <header className={`fixed ${showBackground ? "backdrop-blur-sm bg-main-black bg-opacity-25 animate duration-300" : ""} w-screen z-40`}>
       <div className="sticky top-0 grid grid-cols-1 md:grid-cols-2 p-0.5 sm:p-2 md:px-24">
         {/* left */}
         <div className="relative flex h-20 my-auto">
-          <div className="hidden md:flex">
-            <Image
-              src={logo}
-              layout="fill"
-              objectFit="contain"
-              objectPosition="left"
-              className="cursor-pointer"
-              alt=""
-            />
-          </div>
-          <div className="flex md:hidden">
-            <Image src={logo} layout="fill" objectFit="contain" alt="" />
-          </div>
+          <Image src={logo} layout="fill" objectFit="contain" alt="" />
         </div>
 
         {/* right icons */}
-        <div className="hidden md:flex justify-end items-center">
-          <Link href="" rel="noopener noreferrer">
-            <div className="mx-2">
+        <div className="flex justify-end items-center md:space-x-2 space-x-1 -mt-20 sm:mt-0">
+          <Link href="">
+            <div className="mx-1 md:mx-2">
               <Image
                 src={twitterImg}
                 objectFit="contain"
@@ -39,18 +27,8 @@ function Header({showBackground}) {
               />
             </div>
           </Link>
-          {/* <Link href="">
-            <div className="mx-2">
-              <Image
-                src={instagramImg}
-                objectFit="contain"
-                className="cursor-pointer"
-                alt=""
-              />
-            </div> 
-            </Link> */}
           <Link href="https://discord.gg/5qGxb8Sa" target='_blank' rel="noopener noreferrer">
-            <div className="mx-2">
+            <div className="mx-1 md:mx-2">
               <Image
                 src={discordImg}
                 objectFit="contain"
@@ -60,11 +38,10 @@ function Header({showBackground}) {
             </div>
           </Link>
           <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer">
-    <button className="font-helvetica-title text-sm text-slate-50 ml-3 rounded-md border-2 bg-main-black py-2 px-5 hover:bg-slate-50 hover:border-slate-50 hover:text-zinc-900 transition duration-150 active:scale-90">
-        RAFFLE
-    </button>
-</a>
-
+            <button className="font-helvetica-title text-sm text-slate-50 ml-3 rounded-md border-2 bg-main-black py-2 px-5 hover:bg-slate-50 hover:border-slate-50 hover:text-zinc-900 transition duration-150 active:scale-90">
+              RAFFLE
+            </button>
+          </a>
         </div>
       </div>
     </header>
