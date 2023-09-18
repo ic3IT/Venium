@@ -30,10 +30,6 @@ function Banner() {
     <div></div>
 
 </div>
-Changes made:
-
-I've introduced additional breakpoints (sm:, md:, lg:, xl:) to incrementally adjust
-
 
 
 <br className="sm:block sm:visible" />
