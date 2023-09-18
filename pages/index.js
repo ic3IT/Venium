@@ -74,7 +74,7 @@ export default function Home() {
   return (
     <div>
       <Header showBackground={showHeaderBg} />
-      
+         
       <Banner />
 
       <Marquee />
