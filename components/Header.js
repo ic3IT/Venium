@@ -16,9 +16,9 @@ function Header({ showBackground }) {
         </div>
 
         {/* right icons */}
-        <div className="flex justify-end items-center md:space-x-2 space-x-1 -mt-20 sm:mt-0">
+        <div className="hidden md:flex justify-end items-center">
           <Link href="">
-            <div className="mx-1 md:mx-2">
+            <div className="mx-1 md:mx-2 -mt-2 sm:">
               <Image
                 src={twitterImg}
                 objectFit="contain"

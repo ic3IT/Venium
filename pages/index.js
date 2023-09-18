@@ -13,6 +13,7 @@ import DGK from "../components/sections/DGK";
 import Roadmap from "../components/Roadmap";
 import DinoPreviews from "../components/DinoPreviews";
 import scrolliumlogo from '../public/assets/images/scrolliumlogo.png'
+import Socials from "../components/Socials";
 
 export default function Home() {
   const roadmapRef = useRef();
