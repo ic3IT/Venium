@@ -18,7 +18,7 @@ function Banner() {
     {/* Spacer div */}
     <div></div>
 
-    <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer" className="col-start-2">
+    <a href="https://scrolliumr.vercel.app" target="_blank" rel="noopener noreferrer" className="col-start-2">
       <button className="font-akira text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8">Raffle</button>
     </a>
 
