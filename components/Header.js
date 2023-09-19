@@ -17,7 +17,7 @@ function Header({ showBackground }) {
 
         {/* right icons */}
         <div className="hidden md:flex justify-end items-center">
-          <Link href="">
+          <Link href="https://twitter.com/scroll_ium" target='_blank' rel="noopener noreferrer">
             <div className="mx-1 md:mx-2 -mt-2 sm:">
               <Image
                 src={twitterImg}
