@@ -19,11 +19,14 @@ function Banner() {
     <div></div>
 
     <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer" className="col-start-2">
-      <button className="font-akira text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8">Raffle</button>
+    <button className="font-akira text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8 border-b border-t-0 border-r-0 border-l-0 pb-1">
+    Raffle
+</button>
+
     </a>
 
     <a href="https://prophex.vercel.app" target="_blank" rel="noopener noreferrer" className="col-start-3">
-      <button className="font-akira text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8">Prophex</button>
+      <button className="font-akira text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-white bounce-in px-2 sm:px-5 py-1 -mt-4 sm:-mt-8 border-b border-t-0 border-r-0 border-l-0 pb-1">Prophex</button>
     </a>
 
     {/* Spacer div */}
@@ -39,7 +42,7 @@ function Banner() {
 
 <div >
         <a href="https://discord.com/invite/5qGxb8Sa" target="_blank" rel="noopener noreferrer">
-    <button class="flex-1 font-akira text-2xl sm:text-5xl md:text-6xl lg:text-6xl text-white bounce-in mt-8 sm:mt-0"> 
+    <button class="flex-1 font-akira text-2xl sm:text-5xl md:text-6xl lg:text-6xl text-white bounce-in mt-8 sm:mt-0 border-b border-t-0 border-r-0 border-l-0 pb-1"> 
         Pass 
     </button>
     </a>
