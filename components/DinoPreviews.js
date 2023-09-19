@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useEffect } from 'react';  // <-- Make sure this is imported
 
 function DinoPreviews() {
 
@@ -10,6 +11,14 @@ function DinoPreviews() {
 		border: 'none', // Remove the border
 		border: 'none',
 	  };
+
+	  useEffect(() => {
+		const videos = document.querySelectorAll('video');
+		videos.forEach(video => {
+			video.muted = true;
+			video.play();
+		});
+	}, []);
 
 	return (
 		<section className="grid grid-rows-2 bg-gradient-to-br from-purple-600 to-blue-500">
