@@ -61,10 +61,9 @@ export default function Home() {
     },
     {
       id: 4,
-      name: "TBA",
-      className: "items-center",
+      name: "Rynex",
       image: scrolliumlogo,
-      role: "",
+      role: "Full Stack Developer",
     },
   ];
 
