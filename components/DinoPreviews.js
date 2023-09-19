@@ -20,7 +20,7 @@ function DinoPreviews() {
 						<div
 							className="w-[150px] sm:w-[calc(100vw/5)] pt-1 px-1 animate-marquee-right"
 							key={i}>
-							<video autoPlay loop muted className="rounded-md" style={videoStyle}>
+							<video autoPlay loop muted playsInline className="rounded-md" style={videoStyle}>
 				  <source src='./480.mp4' type="video/mp4" />
 				  Your browser does not support the video tag.
 				</video>
@@ -33,7 +33,7 @@ function DinoPreviews() {
 						<div
 							className="w-[150px] sm:w-[calc(100vw/5)] pt-1 px-1 animate-marquee2-right"
 							key={i}>
-							<video autoPlay loop muted className="rounded-md" style={videoStyle}>
+							<video autoPlay loop muted playsInline className="rounded-md" style={videoStyle}>
 				  <source src='./480.mp4' type="video/mp4" />
 				  Your browser does not support the video tag.
 				</video>
@@ -48,7 +48,7 @@ function DinoPreviews() {
 						<div
 							className="w-[150px] sm:w-[calc(100vw/5)] pt-1 px-1 animate-marquee"
 							key={i}>
-							<video autoPlay loop muted className="rounded-md" style={videoStyle}>
+							<video autoPlay loop muted playsInline className="rounded-md" style={videoStyle}>
 				  <source src='./480.mp4' type="video/mp4" />
 				  Your browser does not support the video tag.
 				</video>
@@ -61,7 +61,7 @@ function DinoPreviews() {
 						<div
 							className="w-[150px] sm:w-[calc(100vw/5)] pt-1 px-1 animate-marquee2"
 							key={i}>
-							<video autoPlay loop muted className="rounded-md" style={videoStyle}>
+							<video autoPlay loop muted playsInline className="rounded-md" style={videoStyle}>
 				  <source src='./480.mp4' type="video/mp4" />
 				  Your browser does not support the video tag.
 				</video>
