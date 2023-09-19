@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@builder.io/react": "^3.0.14",
     "@heroicons/react": "^2.0.18",
     "next": "13.4.19",
     "prettier-plugin-tailwindcss": "^0.5.4",
