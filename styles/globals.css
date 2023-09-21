@@ -66,3 +66,22 @@ body, h1, h2, h3, p, button {
     display: none!important;
     -webkit-appearance: none;
   }
+
+  .extended-strike {
+    position: relative;
+    display: inline-block;  /* Important for rendering the pseudo-element */
+  }
+  
+  .extended-strike::after {
+    content: "";
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    height: 1.5px;
+    background-color: white;  /* Setting the line color to white */
+    top: 50%;
+    z-index: -1; /* Place the line behind the text */
+  }
+  
+
+  

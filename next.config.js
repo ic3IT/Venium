@@ -1,19 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  
+module.exports = {
   async rewrites() {
     return [
       {
         source: '/raffle',
-        destination: 'https://scrollium.vercel.app',
-      },
-      {
-        source: '/prophex',
-        destination: 'https://prophex.vercel.app',
+        destination: 'https://scrolliums.vercel.app',
       },
     ];
   },
 };
-
-module.exports = nextConfig;
