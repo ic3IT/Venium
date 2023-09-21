@@ -1,5 +1,8 @@
 import Image from "next/image";
 import neonLogo from "../public/assets/images/Purple_Neon_Drip_Logo.svg";
+import { useState, useEffect } from "react";
+
+
 
 function Banner() {
   return (
@@ -35,6 +38,8 @@ function Banner() {
         {/* <Image src={neonLogo} objectFit="cover" /> */}
         {/* <Image src={normaleLogo} objectFit="cover" /> */}
       </div>
+
+
     </div>
   );
 }
