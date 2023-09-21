@@ -16,14 +16,15 @@ function Banner() {
         </a>
 
         <a href="https://prophex.vercel.app" target="_blank" rel="noopener noreferrer">
-          <button className="font-akira text-xl md:text-3xl lg:text-5xl text-white px-12 py-1 border-b-2 mt-10 ml-8 bounce-in line-through 5xl:translate-x-48">Prophex</button>
+          <button className="font-akira text-xl md:text-3xl lg:text-5xl text-white px-12 py-1 border-b-2 mt-10 ml-8 bounce-in line-through 5xl:translate-x-48
+           6xl:translate-x-72">Prophex</button>
         </a>
 
         <div></div>
       </div>
 
       <a href="https://discord.com/invite/5qGxb8Sa" target="_blank" rel="noopener noreferrer" className="mb-10 mt-5">
-    <button className="font-akira text-2xl md:text-6xl text-white border-b-2 pb-1 mr-10 mt-10 bounce-in translate-x-2 5xl:translate-x-11">Pass</button>
+    <button className="font-akira text-2xl md:text-6xl text-white border-b-2 pb-1 mr-10 mt-10 bounce-in translate-x-1 5xl:translate-x-11">Pass</button>
       </a>
 
 
