@@ -5,6 +5,10 @@ import { useState, useEffect } from "react";
 
 
 function Banner() {
+
+  const [isBouncing, setIsBouncing] = useState(false);
+
+  
   return (
     <div className="flex flex-col h-screen bg-main-black items-center justify-center">
 
