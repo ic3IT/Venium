@@ -14,11 +14,11 @@ function Banner() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 w-full mb-10 px-4">
         <div></div>
 
-        <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer" className="md:col-start-2">
+        <a href="https://raffle.scrollium.io/" target="_blank" rel="noopener noreferrer" className="md:col-start-2">
           <button className="font-akira text-xl md:text-3xl lg:text-5xl text-white px-5 py-1 border-b-2 mt-10 bounce-in">Raffle</button>
         </a>
 
-        <a href="https://prophex.vercel.app" target="_blank" rel="noopener noreferrer" className="xl:translate-x-10 5xl:translate-x-48 6xl:translate-x-72">
+        <a href="https://prophex.scrollium.io/" target="_blank" rel="noopener noreferrer" className="xl:translate-x-10 5xl:translate-x-48 6xl:translate-x-72">
     <button className="font-akira text-xl md:text-3xl lg:text-5xl text-white px-12 py-1 border-b-2 mt-10 ml-8 bounce-in line-through">
         Prophex
     </button>
