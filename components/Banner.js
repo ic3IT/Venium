@@ -32,7 +32,7 @@ function Banner() {
         <div></div>
       </div>
 
-      <a href="https://discord.com/invite/5qGxb8Sa" target="_blank" rel="noopener noreferrer" className="mb-10 mt-5 translate-x-5 5xl:translate-x-4">
+      <a href="https://pass.scrollium.io/" target="_blank" rel="noopener noreferrer" className="mb-10 mt-5 translate-x-5 5xl:translate-x-4">
     <button className="font-akira text-2xl md:text-6xl text-white border-b-2 pb-1 mr-10 mt-10 bounce-in">Pass</button>
       </a>
 
