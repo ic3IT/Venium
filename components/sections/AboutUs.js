@@ -14,8 +14,8 @@ function AboutUs() {
           <p className="text-xl font-helvetica-regular leading-7">
             Welcome to Scrollium, the pioneering ecosystem on the Scroll
             Network. We stand at the forefront of innovation, merging the power
-            of cryptocurrency with the boundless potential of entertainment. Our vision is to propel the Scroll ecosystem into the
-            future, and we&apos;re doing this one game at a time.
+            of cryptocurrency with the boundless potential of entertainment. Our vision is to propel web3 into the
+            future, and we&apos;re doing this one step at a time.
           </p>
           <h1 className="font-helvetica-title text-3xl mt-5 md:text-left">
             Why Scrollium?
@@ -34,10 +34,10 @@ function AboutUs() {
           At Scrollium, every interaction is not just immersive but also rewarding. Our dApps don&apos;t just offer fun; they offer tangible returns, blending entertainment with real-world value.
           </p>
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
-          3. Designed for Scroll Adopters:
+          3. Designed for Beginner Adopters:
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          We recognize the potential of the Scroll Network and are dedicated to enriching its ecosystem. Our platform is tailored for Beginner Scroll adopters, ensuring seamless compatibility, optimized performance, and an easy unmatched user experience.
+          We recognize the potential of web3 and are dedicated to enriching its ecosystem. Our platform is tailored for Beginner adopters, ensuring seamless compatibility, optimized performance, and an easy unmatched user experience.
           </p>
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
           4. Forever Evolutionary:
