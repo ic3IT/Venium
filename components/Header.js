@@ -11,8 +11,8 @@ function Header({ showBackground }) {
     <header className={`fixed ${showBackground ? "backdrop-blur-sm bg-main-black bg-opacity-25 animate duration-300" : ""} w-screen z-40`}>
       <div className="sticky top-0 grid grid-cols-1 md:grid-cols-2 p-0.5 sm:p-2 md:px-24">
         {/* left */}
-        <div className="relative flex h-20 my-auto">
-          <Image src={logo} layout="fill" objectFit="contain" alt="" />
+        <div className="flex h-20 sm:items-center justify-center md:justify-start">
+          <Image src={logo} objectFit="contain" alt="" height={100} width={100}/>
         </div>
 
         {/* right icons */}
