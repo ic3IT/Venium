@@ -9,7 +9,7 @@ function Banner() {
 
     return (
         <div className="flex flex-col h-screen bg-main-black items-center justify-center">
-            <h1 className="font-akira text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-10 mt-52 ">
+            <h1 className="font-akira text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-10 md:mt-52 ">
                 Scrollium
             </h1>
 
@@ -48,12 +48,12 @@ function Banner() {
                 rel="noopener noreferrer"
                 className="mb-10 mt-5 translate-x-5 5xl:translate-x-4"
             >
-                <button className="font-akira text-3xl md:text-4xl lg:text-5xl 2xl:text-5xl text-white border-b-2 pb-1 mr-10 mt-10 bounce-in">
+                <button className="font-akira text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl text-white border-b-2 pb-1 mr-10 mt-10 bounce-in">
                     Pass
                 </button>
             </a>
 
-            <div className="relative w-48 md:w-96 lg:w-[600px] h-32 md:h-72 lg:h-[400px]">
+            <div className="hidden md:block md:relative w-48 md:w-96 lg:w-[600px] h-32 md:h-72 lg:h-[400px]">
                 {/* Uncomment the image you want to use */}
                 {/* <Image src={neonLogo} objectFit="cover" /> */}
                 {/* <Image src={normaleLogo} objectFit="cover" /> */}

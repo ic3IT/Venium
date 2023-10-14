@@ -37,9 +37,9 @@ function Header({ showBackground }) {
               />
             </div>
           </Link>
-          <a href="https://scrollium.vercel.app" target="_blank" rel="noopener noreferrer">
+          <a href="https://zure.scrollium.io" target="_blank" rel="noopener noreferrer">
             <button className="font-helvetica-title text-sm text-slate-50 ml-3 rounded-md border-2 bg-main-black py-2 px-5 hover:bg-slate-50 hover:border-slate-50 hover:text-zinc-900 transition duration-150 active:scale-90">
-              RAFFLE
+              ZURE
             </button>
           </a>
         </div>
