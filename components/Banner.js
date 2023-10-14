@@ -7,7 +7,7 @@ function Banner() {
 
     return (
         <div className="flex flex-col h-screen bg-main-black items-center justify-center">
-            <h1 className="font-akira text-2xl md:text-5xl lg:text-6xl xl:text-8xl text-white mb-10 mt-52 ">
+            <h1 className="font-akira text-2xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-10 mt-52 ">
                 Scrollium
             </h1>
 
