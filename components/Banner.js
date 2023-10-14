@@ -7,36 +7,38 @@ function Banner() {
 
     return (
         <div className="flex flex-col h-screen bg-main-black items-center justify-center">
-            <h1 className="font-akira text-2xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-10 mt-56">
+            <h1 className="font-akira text-2xl md:text-5xl lg:text-6xl xl:text-8xl text-white mb-10 mt-52 ">
                 Scrollium
             </h1>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-6 w-full mb-10 px-4 justify-center items-center">
-                <div className="md:col-start-2">
-                    <a
-                        href="https://raffle.scrollium.io/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex justify-center md:justify-normal"
-                    >
-                        <button className="font-akira text-xl md:text-3xl lg:text-5xl text-white px-5 py-1 border-b-2 mt-10 bounce-in">
-                            Raffle
-                        </button>
-                    </a>
-                </div>
-                <div className="md:col-start-3">
-                    <a
-                        href="https://prophex.scrollium.io/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex justify-center md:justify-normal"
-                    >
-                        <button className="font-akira text-xl md:text-3xl lg:text-5xl text-white px-12 py-1 border-b-2 mt-10 ml-8 bounce-in line-through">
-                            Prophex
-                        </button>
-                    </a>
-                </div>
-            </div>
+            <div className="flex flex-wrap  gap-32 w-full mb-10 px-4 justify-center items-center">
+    <div className="col-start-1 sm:col-start-1 md:col-start-2 lg:col-start-2 xl:col-start-2 2xl:col-start-2">
+        <a
+            href="https://raffle.scrollium.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center md:justify-normal"
+        >
+            <button className="font-akira text-xl md:text-3xl lg:text-5xl text-white px-5 py-1 border-b-2 mt-10 bounce-in">
+                Raffle
+            </button>
+        </a>
+    </div>
+    <div className="col-start-1 sm:col-start-2 md:col-start-3 lg:col-start-3 xl:col-start-3 2xl:col-start-3">
+        <a
+            href="https://prophex.scrollium.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center md:justify-normal"
+        >
+            <button className="font-akira text-xl md:text-3xl lg:text-5xl text-white px-5 md:px-12 py-1 border-b-2 2xl:ml-48 mt-10 bounce-in line-through">
+                Prophex
+            </button>
+        </a>
+    </div>
+</div>
+
+
 
             <a
                 href="https://pass.scrollium.io/"
