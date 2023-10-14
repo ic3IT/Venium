@@ -10,6 +10,8 @@ module.exports = {
       screens: {
         '5xl': '2100px',
         '6xl': '2600px',
+        'custom': {'min': '500px', 'max': '776px'},
+        'phone': {'min': '0px', 'max': '496px'},
       },
       colors: {
         "main-black": "#000000"
