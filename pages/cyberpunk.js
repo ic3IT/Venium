@@ -112,7 +112,7 @@ const teamData = [
           <div className="flex flex-col py-40 px-20">
             <div className="text-slate-50 order-1 text-center">
               <h1 className="font-helvetica-title text-3xl mb-8 ">
-                Scrollium Team
+                VENIUM Team
               </h1>
             </div>
             <div className="flex flex-wrap flex-col items-center sm:items-start sm:flex-row justify-center order-2">

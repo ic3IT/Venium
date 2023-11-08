@@ -139,7 +139,7 @@ function Roadmap({ buttonRef, changeColor }) {
       {/* Top */}
       <div className="grid grid-cols-2 center items-center">
         <h1 className="text-black font-helvetica-title text-md md:text-xl justify-start">
-          SCROLLIUM ROADMAP
+          Venium ROADMAP
         </h1>
         <div className="flex justify-end">
           <button

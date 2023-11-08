@@ -12,26 +12,26 @@ function AboutUs() {
             ABOUT US
           </h1>
           <p className="text-xl font-helvetica-regular leading-7">
-            Welcome to Scrollium, the pioneering ecosystem on the Scroll
+            Welcome to Venium, the pioneering ecosystem on the Scroll
             Network. We stand at the forefront of innovation, merging the power
             of cryptocurrency with the boundless potential of entertainment. Our vision is to propel web3 into the
             future, and we&apos;re doing this one step at a time.
           </p>
           <h1 className="font-helvetica-title text-3xl mt-5 md:text-left">
-            Why Scrollium?
+            Why Venium?
           </h1>
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
           1. All-Inclusive Experience:
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          We are curating a diverse library tailored to the ever-evolving crypto landscape. Whether you&apos;re a newcomer exploring the basics or a seasoned expert delving into advanced topics, Scrollium offers a wealth of resources for every enthusiast.
+          We are curating a diverse library tailored to the ever-evolving crypto landscape. Whether you&apos;re a newcomer exploring the basics or a seasoned expert delving into advanced topics, Venium offers a wealth of resources for every enthusiast.
           </p>
 
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
           2. Interactive & Rewarding
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          At Scrollium, every interaction is not just immersive but also rewarding. Our dApps don&apos;t just offer fun; they offer tangible returns, blending entertainment with real-world value.
+          At Venium, every interaction is not just immersive but also rewarding. Our dApps don&apos;t just offer fun; they offer tangible returns, blending entertainment with real-world value.
           </p>
           <p className="text-xl font-helvetica-regular mt-3 leading-7 font-semibold">
           3. Designed for Beginner Adopters:
@@ -43,7 +43,7 @@ function AboutUs() {
           4. Forever Evolutionary:
           </p>
           <p className="text-xl font-helvetica-regular mt-1 leading-7">
-          In a rapidly advancing digital age, we don&apos;t just adapt; we revolutionize. Scrollium is a living entity, continuously evolving, improving, and expanding. We&apos;re not here to follow trends but to set them.
+          In a rapidly advancing digital age, we don&apos;t just adapt; we revolutionize. Venium is a living entity, continuously evolving, improving, and expanding. We&apos;re not here to follow trends but to set them.
           </p>
 
 

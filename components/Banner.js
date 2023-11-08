@@ -10,7 +10,7 @@ function Banner() {
     return (
         <div className="flex flex-col h-screen bg-main-black items-center justify-center">
             <h1 className="font-akira text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-10 md:mt-52">
-                Scrollium
+                Venium
             </h1>
 
             <div className="flex flex-wrap gap-24 md:gap-32 w-full mb-10 px-4 justify-center items-center">
@@ -41,7 +41,7 @@ function Banner() {
 </div>
 
 
-
+        
             <a
                 href="https://pass.scrollium.io/"
                 target="_blank"
