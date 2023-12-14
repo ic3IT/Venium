@@ -59,12 +59,6 @@ export default function Home() {
       image: scrolliumlogo,
       role: "AI/Web Developer",
     },
-    {
-      id: 4,
-      name: "Rynex",
-      image: scrolliumlogo,
-      role: "Full Stack Developer",
-    },
   ];
 
   useEffect(() => {
