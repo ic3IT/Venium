@@ -27,7 +27,7 @@ function Header({ showBackground }) {
               />
             </div>
           </Link>
-          <Link href="https://discord.gg/2qgUnqVT" target='_blank' rel="noopener noreferrer">
+          <Link href="https://discord.gg/Kp6sexSs" target='_blank' rel="noopener noreferrer">
             <div className="mx-1 md:mx-2">
               <Image
                 src={discordImg}
