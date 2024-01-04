@@ -27,7 +27,7 @@ function Header({ showBackground }) {
               />
             </div>
           </Link>
-          <Link href="https://discord.gg/NNjGH6ke" target='_blank' rel="noopener noreferrer">
+          <Link href="https://discord.gg/2qgUnqVT" target='_blank' rel="noopener noreferrer">
             <div className="mx-1 md:mx-2">
               <Image
                 src={discordImg}
@@ -37,7 +37,7 @@ function Header({ showBackground }) {
               />
             </div>
           </Link>
-          <a href="https://zure.scrollium.io" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.zure.venium.io" target="_blank" rel="noopener noreferrer">
             <button className="font-helvetica-title text-large text-slate-50 ml-3 rounded-md border-2 bg-main-black py-2 px-5 hover:bg-slate-50 hover:border-slate-50 hover:text-zinc-900 transition duration-150 active:scale-90">
              ZURE
             </button>

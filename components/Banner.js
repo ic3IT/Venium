@@ -16,7 +16,7 @@ function Banner() {
             <div className="flex flex-wrap gap-24 md:gap-32 w-full mb-10 px-4 justify-center items-center">
     <div className="">
         <a
-            href="https://raffle.scrollium.io/"
+            href="https://www.raffle.venium.io/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex justify-center md:justify-normal"
@@ -28,7 +28,7 @@ function Banner() {
     </div>
     <div className="phone:mt-0 custom: mt-9 md:mt-0">
         <a
-            href="https://prophex.scrollium.io/"
+            href="https://www.prophex.venium.io/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex justify-center md:justify-normal"
@@ -43,7 +43,7 @@ function Banner() {
 
         
             <a
-                href="https://pass.scrollium.io/"
+                href="https://www.pass.venium.io/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mb-10 mt-5 translate-x-5 5xl:translate-x-4"
